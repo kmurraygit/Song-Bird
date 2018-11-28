@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One|Patrick+Hand');
+h1{
+    font-family: 'Nixie One', cursive;
+    font-variant: small-caps;
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: x-large;
+}
+
+.nav {
+    background-color: #1E6870;
+    margin: 5px;
+    padding: 0px; 
+    border: 3px solid #1E6870;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 14px 17px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+a:hover {
+    background-color: #573F62;
+}
+
+.current{
+    background-color: #578D8B;
+}
