@@ -1,36 +1,342 @@
-@import url('https://fonts.googleapis.com/css?family=Nixie+One|Patrick+Hand');
-h1{
-    font-family: 'Nixie One', cursive;
-    font-variant: small-caps;
+
+body {
+    background-color:white; 
+}
+@font-face {
+    src:url("RusshellFree.otf");
+    font-family: RushellFree;
 }
 
-p{
-    font-family: 'Patrick Hand', cursive;
-    font-size: x-large;
+@font-face {
+  src:url("loveya.txt");
+  font-family: Loveya;
 }
 
-.nav {
-    background-color: #1E6870;
-    margin: 5px;
-    padding: 0px; 
-    border: 3px solid #1E6870;
-    border-radius: 5px;
+#content {
+  margin-top: 75px;
+  margin-bottom:45px;
 }
 
-a {
-    display: inline-block;
+.image1 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: -1;
+}
+/*Start of top Nav bar*/
+.topnav {
+  overflow: hidden;
+    background-color: white;
+    width:100%;
     text-align: center;
+    padding: 0px,0px,0px,0px;
     color: white;
+    position: fixed;
+    top:0;
+    font-size: 20px;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #0E887F;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0E887F;
+  color: black;
+}
+
+
+.top-nav a:hover {
+background-color: #000;
+
+}
+/*end of top Nav bar*/
+
+/*start of media bar*/
+.media {
+  overflow: hidden;
+  background-color: transparent;
+  width:100%;
+  text-align: center;
+  padding: 0px,0px,0px,0px;
+  color: black;
+  position: fixed;
+  bottom:15px;
+  font-size: 20px;
+}
+
+.media a {
+  color: black;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.media a:hover {
+  background-color: #0E887F;
+  color: white;
+}
+
+.facebook {
+  background: transparent;
+}
+
+.twitter {
+  background: transparent; 
+}
+
+.google {
+  background: transparent;
+}
+
+.instagram {
+  background: transparent;
+}
+
+.youtube {
+  background: transparent;
+}
+
+/*End of media bar*/
+h1 {
+  font-family: RushellFree;
+
+}
+
+hr {
+  border: 0;
+  width: 100%;
+  height: 5px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+p.top {
+    font-family: RushellFree;
+    text-align: center;
+    color: #C04884;
+    font-size: 600%;
+    padding-top: 50px;
+}
+
+.image2 {
+    position: center;
+}
+
+.image3 {
+  position: center;
+}
+
+/*Katie added div"*/
+#firstline {
+  width: auto;
+  background-color:#C04884;
+  height:12px;
+}
+#wrap {
+  width:100%;
+  height:600px;
+  background-color: transparent; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom left, #1E6870, transparent); /* Standard syntax (must be last) */
+}
+
+.left {
+  width: 600px;
+  background-color: transparent;
+  height:123px;
+  float:left;
+}
+
+.right {
+  width: 650px;
+  background-color: transparent;
+  height:123px;
+  float: right;
+ 
+
+}
+
+/*Katie ended div*/
+
+
+
+.myfooter {
+   align-content: center;
+    margin-top:150px;
+    left: 0;
+    bottom:0;
+    background-color:transparent;
+    color: black;
+    text-align: center;
     text-decoration: none;
-    padding: 14px 17px;
-    font-family: 'Patrick Hand', cursive;
-
 }
 
-a:hover {
+.primarybutton {
+ 
     background-color: #573F62;
+    border: none;
+    color: white;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
-.current{
-    background-color: #578D8B;
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #573F62;
+  border-radius: 2px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  margin-left: 35px;
 }
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #C04884;
+  border-radius: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+
+}
+.primarybutton:hover {
+  background-color: #573F62;
+  color: white;
+}
+
+.whatyoucando {
+  width: 75%;
+  height: 600px;
+  background-color: transparent;
+  margin-top: -300px;
+  margin-left: 225px;
+  text-align: center;
+  
+  
+}
+
+
+
+/*Start of carousel*/
+
+* {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+ width: 55%;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: black;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: #C04884;
+}
+
+/* Caption text */
+.text {
+ color: red;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: red;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4} 
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4} 
+ to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .prev, .next,.text {font-size: 11px}
+}
+/*End of carousel*/
+    WEbsite Colors
+#1E6870 (green)
+#573F62(purple)
+#791235 (red)
+#C04884 (pink)
