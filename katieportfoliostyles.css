@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    src:url("LoveYaLikeASister.ttf");
-    font-family: LoveYaLikeASister;
+    src:url("LoveYa.ttf");
+    font-family: LoveYa;
 }
 
 #content {
@@ -41,7 +41,7 @@
       color: white;
       top:25px;
       font-size: 35px;
-      font-family: LoveYaLikeASister;
+      font-family: LoveYa;
 
   }
   
@@ -68,7 +68,7 @@
   p {
     text-align: center;
     font-size: 35px;
-    font-family: LoveYaLikeASister;   
+    font-family: LoveYa;   
   }
  
   /*Start of carousel*/
