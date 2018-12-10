@@ -189,8 +189,7 @@ text-align: center;
 }
 
 .row2 {
-    background-image: url("Artboard 2.png");
-  background-color: #cccccc;
+    background-image: url("Artboard2.png");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -209,8 +208,7 @@ text-align: center;
 }
 
 .row3 {
-    background-image: url("Artboard 3.png");
-  background-color: #cccccc;
+    background-image: url("Artboard3.png");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -230,8 +228,7 @@ text-align: center;
 }
 
 .row4 {
-    background-image: url("Artboard 4.png");
-  background-color: #cccccc;
+    background-image: url("Artboard4.png");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
