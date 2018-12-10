@@ -8,8 +8,13 @@ body {
 }
 
 @font-face {
-  src:url("loveya.txt");
+  src:url("LoveYa.ttf");
   font-family: Loveya;
+}
+
+@font-face {
+  src:url("Lemon.otf");
+  font-family: lemon;
 }
 
 #content {
@@ -19,7 +24,7 @@ body {
 
 .image1 {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 0;
     z-index: -1;
 }
@@ -43,16 +48,17 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: lemon;
 }
 
 .topnav a:hover {
   background-color: #0E887F;
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
   background-color: #0E887F;
-  color: black;
+  color: white;
 }
 
 
@@ -114,20 +120,12 @@ h1 {
 
 }
 
-hr {
-  border: 0;
-  width: 100%;
-  height: 5px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
 p.top {
     font-family: RushellFree;
     text-align: center;
     color: #C04884;
     font-size: 600%;
-    padding-top: 50px;
+
 }
 
 .image2 {
@@ -143,6 +141,7 @@ p.top {
   width: auto;
   background-color:#C04884;
   height:12px;
+  margin-top: -75px;
 }
 #wrap {
   width:100%;
@@ -166,10 +165,7 @@ p.top {
  
 
 }
-
 /*Katie ended div*/
-
-
 
 .myfooter {
    align-content: center;
@@ -180,6 +176,7 @@ p.top {
     color: black;
     text-align: center;
     text-decoration: none;
+    font-family: lemon;
 }
 
 .primarybutton {
@@ -334,9 +331,4 @@ p.top {
 @media only screen and (max-width: 300px) {
  .prev, .next,.text {font-size: 11px}
 }
-/*End of carousel*/
-    WEbsite Colors
-#1E6870 (green)
-#573F62(purple)
-#791235 (red)
-#C04884 (pink)
+
