@@ -12,9 +12,9 @@ body {
   font-family: Loveya;
 }
 
-@font-face {
-    src:url("Luna.ttf");
-    font-family: luna;
+  @font-face {
+    src:url("Lemon.otf");
+    font-family: lemon;
   }
 
   @font-face {
@@ -60,7 +60,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: Loveya;
+  font-family: lemon;
 }
 
 .topnav a:hover {
@@ -144,16 +144,16 @@ h2 {
     text-align: center;
     color: #1E6870 ;
     font-size: 500%;
-    margin-top: -150px;  
+    margin-top: -160px;  
 }
 
 .logo {
-    width:200px;
+    width:300px;
     font-family: RushellFree;
     text-align: left;
     color: #C04884;
-    font-size: 150%;
-   margin-top: 120px;   
+    font-size: 200%;
+   margin-top: 100px;   
 }
 
 .image3 {
@@ -255,7 +255,7 @@ text-align: center;
     color: black;
     text-align: center;
     text-decoration: none;
-    font-family: Loveya;
+    font-family: lemon;
 }
 
 .primarybutton {
@@ -298,4 +298,6 @@ text-align: center;
   background-color: #573F62;
   color: white;
 }
+
+
 
