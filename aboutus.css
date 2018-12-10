@@ -1,0 +1,310 @@
+
+body {
+    background-color: white;
+}
+@font-face {
+    src:url("RusshellFree.otf");
+    font-family: RushellFree;
+}
+
+@font-face {
+  src:url("Loveya.ttf");
+  font-family: Loveya;
+}
+
+@font-face {
+    src:url("Luna.ttf");
+    font-family: luna;
+  }
+
+  @font-face {
+    src:url("coffee.ttf");
+    font-family: coffee;
+  }
+
+  
+
+#content {
+  margin-top: 25px;
+  margin-bottom:45px;
+}
+
+.banner {
+  background-color: white;
+  width: 100%;
+  height:200px;
+  padding: 25px;
+  font-family: RushellFree;
+  font-size: 25px;
+  color:#C04884;
+}
+
+
+/*Start of top Nav bar*/
+.topnav {
+  overflow: hidden;
+    background-color: white;
+    width:100%;
+    text-align: center;
+    padding: 0px,0px,0px,0px;
+    color: white;
+    position: fixed;
+    top:0;
+    font-size: 20px;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Loveya;
+}
+
+.topnav a:hover {
+  background-color: #1E6870;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #1E6870;
+  color: white;
+}
+
+
+.top-nav a:hover {
+background-color: white;
+
+}
+/*end of top Nav bar*/
+
+/*start of media bar*/
+.media {
+  overflow: hidden;
+  background-color: transparent;
+  width:100%;
+  text-align: center;
+  padding: 0px,0px,0px,0px;
+  color: black;
+  position: fixed;
+  bottom:15px;
+  font-size: 20px;
+}
+
+.media a {
+  color: black;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.media a:hover {
+  background-color: #0E887F;
+  color: white;
+}
+
+.facebook {
+  background: transparent;
+}
+
+.twitter {
+  background: transparent; 
+}
+
+.google {
+  background: transparent;
+}
+
+.instagram {
+  background: transparent;
+}
+
+.youtube {
+  background: transparent;
+}
+
+/*End of media bar*/
+h1 {
+  font-family: RushellFree;
+  text-align:center;
+}
+
+h2 {
+    font-family: coffee;
+    text-align:center;
+  }
+
+.pageheader {
+    width: auto;
+    align-content: center;  
+    font-family: RushellFree;
+    text-align: center;
+    color: #1E6870 ;
+    font-size: 500%;
+    margin-top: -150px;  
+}
+
+.logo {
+    width:200px;
+    font-family: RushellFree;
+    text-align: left;
+    color: #C04884;
+    font-size: 150%;
+   margin-top: 120px;   
+}
+
+.image3 {
+   margin-left: 100px;
+}
+
+/*Katie added div"*/
+#firstline {
+  width: auto;
+  background-color:#C04884;
+  height:12px;
+}
+
+
+.row1 {
+    background-image: url("Artboard1.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 25px;
+
+}
+
+.row1-text {
+text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.row2 {
+    background-image: url("watercolormark2.jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.row2-text {
+text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.row3 {
+    background-image: url("watercolormark3.jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+}
+
+.row3-text {
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.row4 {
+    background-image: url("watercolormark4.jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.row4-text {
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.myfooter {
+   align-content: center;
+    margin-top:150px;
+    left: 0;
+    bottom:0;
+    background-color:transparent;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.primarybutton {
+ 
+    background-color: #573F62;
+    border: none;
+    color: white;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #573F62;
+  border-radius: 2px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #C04884;
+  border-radius: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 205px;
+  
+
+}
+.primarybutton:hover {
+  background-color: #573F62;
+  color: white;
+}
+
+
+/*End of carousel*/
+    WEbsite Colors
+#1E6870 (green)
+#573F62(purple)
+#791235 (red)
+#C04884 (pink)
