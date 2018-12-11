@@ -17,6 +17,8 @@ body {
   font-family: lemon;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans|Patrick+Hand');
+
 #content {
   margin-top: 25px;
   margin-bottom:45px;
@@ -130,6 +132,12 @@ h2 {
     text-align:center;
   }
 
+.p {
+    font-family: 'Patrick Hand', Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: x-large;
+  }
+
 .pageheader {
     width: auto;
     align-content: center;  
@@ -155,11 +163,31 @@ h2 {
   height:12px;
 }
 
-.table {
-
+table, th, td {
+  border: 3px solid #573F62;
+  font-family: 'Patrick Hand', Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
+.chart{
+  margin: 20px;
+}
 
+form {
+  font-family: 'Patrick Hand', Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  border: .5px solid rgb(202, 150, 176);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(202, 150, 176);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
 
 .myfooter {
    align-content: center;
