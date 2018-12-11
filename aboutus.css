@@ -144,7 +144,7 @@ h2 {
     text-align: center;
     color: #1E6870 ;
     font-size: 500%;
-    margin-top: -160px;  
+    margin-top: -200px;  
 }
 
 .logo {
@@ -153,7 +153,7 @@ h2 {
     text-align: left;
     color: #C04884;
     font-size: 200%;
-   margin-top: 100px;   
+   margin-top: 75px;   
 }
 
 .image3 {
@@ -165,6 +165,7 @@ h2 {
   width: auto;
   background-color:#C04884;
   height:12px;
+  margin-top:-20px;
 }
 
 
