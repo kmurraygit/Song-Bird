@@ -40,7 +40,7 @@ body {
   text-align: center;
   color: #1E6870 ;
   font-size: 500%;
-  margin-top: -160px;  
+  margin-top: -180px;  
 }
 
 .logo {
@@ -49,7 +49,7 @@ body {
   text-align: left;
   color: #C04884;
   font-size: 200%;
- margin-top: 25px;   
+ margin-top: 75px;   
 }
 
 
@@ -163,7 +163,7 @@ hr {
   width: auto;
   background-color:#C04884;
   height:12px;
-  margin-top: -75px;
+  margin-top:-20px;
 }
 #wrap {
   width:100%;
