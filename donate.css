@@ -12,6 +12,11 @@ body {
   font-family: Loveya;
 }
 
+@font-face {
+  src:url("Lemon.otf");
+  font-family: lemon;
+}
+
 #content {
   margin-top: 25px;
   margin-bottom:45px;
@@ -48,17 +53,17 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: Loveya;
+  font-family: lemon;
 }
 
 .topnav a:hover {
   background-color: #1E6870;
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
   background-color: #1E6870;
-  color: black;
+  color: white;
 }
 
 
@@ -121,32 +126,31 @@ h1 {
 }
 
 h2 {
-    font-family: Loveya;
+    font-family: lemon;
     text-align:center;
   }
 
 .pageheader {
     width: auto;
-    
     align-content: center;  
     font-family: RushellFree;
     text-align: center;
     color: #1E6870 ;
     font-size: 500%;
-    margin-top: -150px;  
+    margin-top: -175px;  
 }
 
 .logo {
-    width:200px;
+    width:300px;
     font-family: RushellFree;
     text-align: left;
     color: #C04884;
-    font-size: 100%;
-   margin-top: 135px;   
+    font-size: 200%;
+   margin-top: 95px;   
 }
 
 .image3 {
-   margin-left: 100px;
+   margin-left: 50px;
 }
 
 /*Katie added div"*/
@@ -175,7 +179,7 @@ h2 {
 .simple-subscription-form {
   width:300px;
   background: transparent;
-  margin-left:125px;
+  margin-left:100px;
   padding: 2rem;
 
 }
@@ -196,6 +200,7 @@ h2 {
     color: black;
     text-align: center;
     text-decoration: none;
+    font-family: lemon;
 }
 
 .primarybutton {
