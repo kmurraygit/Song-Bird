@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <title>Song Bird Music/Associated Schools</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--makes the website work on all devices and screen resolutions-->
+    <link rel="stylesheet" href="style.css"> <!--links CSS page-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="./schoolscript.js"></script>
+
+</head>
+    <body>
+<!--Start of Socail Nav Bar--> 
+<div class="topnav">
+        <a href="schools.html"class="active">Associated Schools</a>
+        <a href="events.html">Events</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="ourteam.html">Our Team</a>
+        <a href="join.html" >Join</a>
+        <a href="homepage.html">Home</a>
+</div>
+ <div id="content">
+
+<div class="banner">
+     <div class="logo">Song Bird</div>
+     <div class="pageheader">Associated Schools</div>
+</div>
+<div id="firstline"></div>
+
+<div class="api">
+    <script src="./schoolscript.js"></script>
+
+    <p>Click the button below to see some of the schools we have partnered with. You'll be amazed at how many different schools have been brought under our wing.</p>
+
+    <div class="mt-4">
+        <button class="btn primarybutton" onclick="getDataAndParseTemplate()">Click for Schools!</button>
+    </div>
+    <br>
+    <table class="apiTableData">
+          <tr>
+              <th class="apith" style="width:275px;">School</th>
+              <th class="apith" style="width:60px;">State</th>
+              <th class="apith" style="width:150px;">Represenative</th>
+              <th class="apith" style="width:225px;">Email</th>
+          </tr>
+    </table>
+    <script type="text/html" id="template">
+    <table class="apiTableData">
+          <tr>
+            <td class="apiTableData" style="width:275px;">{{school}}</td>
+            <td class="apiTableData" style="width:60px;">{{state}}</td>
+            <td class="apiTableData" style="width:150px;">{{name}}</td>
+            <td class="apiTableData" style="width:225px;">{{email}}</td>
+        </tr>
+    </table>
+  </script>
+        <div id="display">
+        </div>
+      </div>
+ </div>
+
+
+
+
+ <div class="myfooter">
+        <a href="#top">
+        <img data-aos="fade-up" class="image2" src="./Images/songbirdlogo.svg" width="80" height="80" border="0"></a>
+
+      <p>1234 South Main St. Cedar City, UT 84720</p>
+      <p>songbirdmusic@gmail.com</p>
+</div>
+
+<div class="media">
+        <a href="www.facebook.com">
+            <img class="mimage" src="./Images/facebook.svg" width="15" height="15" border="0"></a>
+        <a href="www.twitter.com">
+            <img class="mimage" src="./Images/twitter.svg" width="15" height="15" border="0"></a>
+        <a href="www.instagram.com">
+            <img class="mimage" src="./Images/instagram.svg" width="15" height="15" border="0"></a>
+        <a href="www.google.com">
+            <img class="mimage" src="./Images/google.svg" width="15" height="15" border="0"></a>
+        <a href="www.youtube.com">
+            <img class="mimage" src="./Images/youtube.svg" width="15" height="15" border="0"></a>
+        
+    </div>
+        
+    
+        
+            <script src="./aos.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+            <script src="script.js"></script> 
+    
+        <script>
+        AOS.init({
+            duration: 2000,
+        });
+        </script>
+        
+          
+          </body>
+        </html>

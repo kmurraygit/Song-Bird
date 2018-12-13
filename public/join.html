@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+    <title>Song Bird Music/Join</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--makes the website work on all devices and screen resolutions-->
+    <link rel="stylesheet" href="style.css"> <!--links CSS page-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Gamja+Flower|Josefin+Sans|Patrick+Hand" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Year', 'K-8', 'High School', 'Higher Education'],
+          ['2011',  4, 5, 7],
+          ['2012',  6, 4, 9],
+          ['2013',  15, 7, 12],
+          ['2014',  31, 8, 22],
+          ['2015',  41, 24, 27],
+          ['2016',  47, 34, 33],
+          ['2017',  52, 45, 48]
+        ]);
+
+        var options = {
+          title: 'Retention Rate Partnering with Song Bird',
+          colors: ['#1E6870','#573F62','#C04884' ],
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+    <body>
+<!--Start of Socail Nav Bar--> 
+<div class="topnav">
+        <a href="schools.html">Associated Schools</a>
+        <a href="events.html">Events</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="ourteam.html">Our Team</a>
+        <a href="join.html" class="active">Join</a>
+        <a href="homepage.html">Home</a>
+</div>
+ <div id="content">
+
+<div class="banner">
+     <div class="logo">Song Bird</div>
+     <div class="pageheader">Join</div>
+</div>
+<div id="firstline"></div>
+<div class="joincolumn">
+        <h1>Why should you join our program?</h1>
+
+        <p class="p" style="margin:10px;">Our program has shown an increase in retention of music programs from around the country. There has also been an increase in the participation and enrollment in higher education musical courses.</p>
+    <div class="table">
+        <table class="joinTable" width="80%">
+            <tr>
+                <th class="joinTable joinThTd"></th>
+                <th class="joinTable joinThTd">2011</th>
+                <th class="joinTable joinThTd">2012</th>
+                <th  class="joinTable joinThTd" rowspan="4">Partnered with<br> Song Bird</th>
+                <th class="joinTable joinThTd">2013</th>
+                <th class="joinTable joinThTd">2014</th>
+                <th class="joinTable joinThTd">2015</th>
+                <th class="joinTable joinThTd">2016</th>
+                <th class="joinTable joinThTd">2017</th>
+            </tr>
+            <tr>
+                <td class="joinTable joinThTd">K-8</td>
+                <td class="joinTable joinThTd">4%</td>
+                <td class="joinTable joinThTd">6%</td>
+                <td class="joinTable joinThTd">15%</td>
+                <td class="joinTable joinThTd">31%</td>
+                <td class="joinTable joinThTd">41%</td>
+                <td class="joinTable joinThTd">47%</td>
+                <td class="joinTable joinThTd">52%</td>
+            </tr>
+            <tr>
+                <td class="joinTable joinThTd">High School</td>
+                <td class="joinTable joinThTd">5%</td>
+                <td class="joinTable joinThTd">4%</td>
+                <td class="joinTable joinThTd">7%</td>
+                <td class="joinTable joinThTd">8%</td>
+                <td class="joinTable joinThTd">24%</td>
+                <td class="joinTable joinThTd">34%</td>
+                <td class="joinTable joinThTd">45%</td>
+            </tr>
+            <tr>
+                <td class="joinTable joinThTd">Higher Education</td>
+                <td class="joinTable joinThTd">7%</td>
+                <td class="joinTable joinThTd">9%</td>
+                <td class="joinTable joinThTd">12%</td>
+                <td class="joinTable joinThTd">22%</td>
+                <td class="joinTable joinThTd">27%</td>
+                <td class="joinTable joinThTd">33%</td>
+                <td class="joinTable joinThTd">48%</td>
+            </tr>
+            <tr>
+                <td  class="joinTable joinThTd" colspan="9" style="font-size:large">*Study was done with 15 institutions, 5 of each category. Song Bird was implemented in 2013 at each of these and has now become a permanant program within the institution. These numbers are based on the previous school year.</td>
+            </tr>
+            <tr>
+                <td  class="joinTable joinThTd" colspan="9"><div id="curve_chart"style="width: auto"></div></td>
+            </tr>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="joincolumn">
+    <p class="p" style="margin:10px">If you think you would like to join the hundereds of schools that have already partnered with Song Bird, simply fill out the form below to get started!</p>
+    <br>
+    <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name of School">
+            </div>
+            <br>
+            <div class="form-group">
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Name of Requester">
+            </div>
+            <br>
+            <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+            </div>
+            <br>
+            <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number">
+            </div>
+            <br>
+            <button type="button" class="btn primarybutton">Submit</button>
+          </form>
+          </div>
+
+
+
+
+      <div class="myfooter">
+            <a href="#top">
+            <img data-aos="fade-up" class="image2" src="./Images/songbirdlogo.svg" width="80" height="80" border="0"></a>
+    
+          <p>1234 South Main St. Cedar City, UT 84720</p>
+          <p>songbirdmusic@gmail.com</p>
+    </div>
+    
+    <div class="media">
+            <a href="www.facebook.com">
+                <img class="mimage" src="./Images/facebook.svg" width="15" height="15" border="0"></a>
+            <a href="www.twitter.com">
+                <img class="mimage" src="./Images/twitter.svg" width="15" height="15" border="0"></a>
+            <a href="www.instagram.com">
+                <img class="mimage" src="./Images/instagram.svg" width="15" height="15" border="0"></a>
+            <a href="www.google.com">
+                <img class="mimage" src="./Images/google.svg" width="15" height="15" border="0"></a>
+            <a href="www.youtube.com">
+                <img class="mimage" src="./Images/youtube.svg" width="15" height="15" border="0"></a>
+            
+        </div>
+        
+    
+        
+            <script src="./aos.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+            <script src="script.js"></script> 
+    
+        <script>
+        AOS.init({
+            duration: 2000,
+        });
+        </script>
+        
+          
+          </body>
+        </html>
