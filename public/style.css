@@ -603,3 +603,5 @@ section:nth-child(5) {
   body {font-family: Verdana, sans-serif; margin:0}
   .mySlides {display: none}
   img {vertical-align: middle;}
+
+ /*animate on scroll comes from Michalsnik on github  https://github.com/michalsnik/aos*/
